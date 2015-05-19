@@ -15,6 +15,8 @@
 		D04A329D1B0A9B4E00933B2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04A329C1B0A9B4E00933B2E /* Images.xcassets */; };
 		D04A32A01B0A9B4E00933B2E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D04A329E1B0A9B4E00933B2E /* LaunchScreen.xib */; };
 		D04A32AC1B0A9B4E00933B2E /* Type1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D04A32AB1B0A9B4E00933B2E /* Type1Tests.m */; };
+		D2DF32801B0AE7C800957B6A /* InsulinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DF327F1B0AE7C800957B6A /* InsulinViewController.m */; };
+		D2DF32831B0AF33100957B6A /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DF32821B0AF33100957B6A /* FoodViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,10 @@
 		D04A32A51B0A9B4E00933B2E /* Type1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Type1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04A32AA1B0A9B4E00933B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D04A32AB1B0A9B4E00933B2E /* Type1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Type1Tests.m; sourceTree = "<group>"; };
+		D2DF327E1B0AE7C800957B6A /* InsulinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsulinViewController.h; sourceTree = "<group>"; };
+		D2DF327F1B0AE7C800957B6A /* InsulinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsulinViewController.m; sourceTree = "<group>"; };
+		D2DF32811B0AF33100957B6A /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
+		D2DF32821B0AF33100957B6A /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,10 @@
 				D04A32961B0A9B4E00933B2E /* ViewController.h */,
 				D04A32971B0A9B4E00933B2E /* ViewController.m */,
 				D04A32991B0A9B4E00933B2E /* Main.storyboard */,
+				D2DF32811B0AF33100957B6A /* FoodViewController.h */,
+				D2DF32821B0AF33100957B6A /* FoodViewController.m */,
+				D2DF327E1B0AE7C800957B6A /* InsulinViewController.h */,
+				D2DF327F1B0AE7C800957B6A /* InsulinViewController.m */,
 				D04A329C1B0A9B4E00933B2E /* Images.xcassets */,
 				D04A329E1B0A9B4E00933B2E /* LaunchScreen.xib */,
 				D04A32931B0A9B4E00933B2E /* Type1.xcdatamodeld */,
@@ -222,7 +232,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2DF32831B0AF33100957B6A /* FoodViewController.m in Sources */,
 				D04A32921B0A9B4E00933B2E /* AppDelegate.m in Sources */,
+				D2DF32801B0AE7C800957B6A /* InsulinViewController.m in Sources */,
 				D04A328F1B0A9B4E00933B2E /* main.m in Sources */,
 				D04A32981B0A9B4E00933B2E /* ViewController.m in Sources */,
 				D04A32951B0A9B4E00933B2E /* Type1.xcdatamodeld in Sources */,
@@ -352,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Type1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -362,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Type1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -420,6 +434,7 @@
 				D04A32B11B0A9B4E00933B2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D04A32B21B0A9B4E00933B2E /* Build configuration list for PBXNativeTarget "Type1Tests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +443,7 @@
 				D04A32B41B0A9B4E00933B2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
